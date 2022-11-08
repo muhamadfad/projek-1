@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.img-1 {
+    width: 100%;
+    max-height: 500px;
+    min-height: 400px;
+    object-fit: cover;
+    object-position: center;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+.front {
+    position: absolute;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.overlay {
+    width: 100%;
+    min-height: 280px;
+    background-color: rgba(250, 250, 250, 0.349);
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    fill: rgb(255, 255, 255);
+    background-color: rgba(250, 250, 250, 0.349);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    border-bottom: 2px grey solid;
+
+}
+
+nav {
+
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logo-nav {
+    width: 30px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+nav ul li :hover {
+    border-bottom: 2px gray solid;
+
+}
+
+.container-1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.desc-images {
+    text-align: center;
+}
+
+.logo-images {
+    text-align: center;
+    width: 200px;
+}
+
+.c-desc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.desc {
+    text-align: justify;
+    width: 80%;
+    padding: 10px;
+
+}
+
+
+
+.card-pemimpin {
+    text-align: center;
+
+}
+
+.card-pemimpin img {
+    margin: 40px;
+
+    object-fit: cover;
+    object-position: center;
+    max-height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 2px rgb(255, 255, 255) solid;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.452);
+}
+
+@media screen and (min-width:800px) {
+    .card-pemimpin {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media screen and(max-width:500px) {}
